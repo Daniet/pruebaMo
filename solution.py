@@ -18,6 +18,7 @@ def row(n, min):
       v.append(count)
     count += 1
 
+  print(v)
   return v
 
 def colum(n):
@@ -34,4 +35,4 @@ def colum(n):
     count += 1
   return m
 
-print(colum(n))
+colum(n)
